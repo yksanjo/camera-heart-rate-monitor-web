@@ -1,3 +1,5 @@
+[![GitHub stars](https://img.shields.io/github/stars/yksanjo/camera-heart-rate-monitor-web?style=social)](https://github.com/yksanjo/camera-heart-rate-monitor-web/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/camera-heart-rate-monitor-web.svg)](https://github.com/yksanjo/camera-heart-rate-monitor-web/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/camera-heart-rate-monitor-web.svg)](https://github.com/yksanjo/camera-heart-rate-monitor-web/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/camera-heart-rate-monitor-web.svg)](https://github.com/yksanjo/camera-heart-rate-monitor-web/commits/main)
+
   # Heart rate monitor on Web
 
 A web app that allows you to measure your heartrate by placing your finger on the camera. Essentially a clone of [this](https://github.com/pstefa1707/camera-heart-rate-monitor/tree/main) by [@pstefa1707](https://github.com/pstefa1707). 
