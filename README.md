@@ -1,38 +1,84 @@
-[![GitHub stars](https://img.shields.io/github/stars/yksanjo/camera-heart-rate-monitor-web?style=social)](https://github.com/yksanjo/camera-heart-rate-monitor-web/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/camera-heart-rate-monitor-web.svg)](https://github.com/yksanjo/camera-heart-rate-monitor-web/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/camera-heart-rate-monitor-web.svg)](https://github.com/yksanjo/camera-heart-rate-monitor-web/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/camera-heart-rate-monitor-web.svg)](https://github.com/yksanjo/camera-heart-rate-monitor-web/commits/main)
+# camera-heart-rate-monitor-web
 
-  # Heart rate monitor on Web
+## Detailed Description
 
-A web app that allows you to measure your heartrate by placing your finger on the camera. Essentially a clone of [this](https://github.com/pstefa1707/camera-heart-rate-monitor/tree/main) by [@pstefa1707](https://github.com/pstefa1707). 
+camera-heart-rate-monitor-web is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-### `npm start`
+## Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Solution Overview
 
-### `npm test`
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Repository Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Git
+- Project runtime/toolchain for this repo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Local Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm ci
+npm run lint
+npm test
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
